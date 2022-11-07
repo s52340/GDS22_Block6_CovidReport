@@ -13,20 +13,20 @@ public class CovidManager {
 
     public HashMap<String, Integer> groupByState() {
         HashMap<String, Integer> result = new HashMap<>();
-        // TODO: Je Bundesland soll die Anzahl der Fälle ermittelt werden
+        // TODO: Je Bundesland soll die Anzahl (Incidence.getNumber()) der Fälle ermittelt werden
 
         return result;
     }
 
     public HashMap<String, Integer> groupByDate() {
         HashMap<String, Integer> result = new HashMap<>();
-        // TODO: Je Tag (getDate()) soll die Anzahl der Fälle ermittelt werden
+        // TODO: Je Tag (getDate()) soll die Anzahl (Incidence.getNumber()) der Fälle ermittelt werden
 
         return result;
     }
 
     public int findHighestValue() {
-        // TODO: Es soll der höchste gemeldete Wert gefunden werden
+        // TODO: Es soll der höchste gemeldete Wert (Incidence.getNumber()) gefunden werden
 
         return 0;
     }

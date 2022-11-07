@@ -1,9 +1,11 @@
 package org.campus02.covidreporting;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 public class CovidReportDemoApp {
     public static void main(String[] args) {
+
         ArrayList<Incidence> recordedValues = DataProvider.getData();
         CovidManager covidManager = new CovidManager(recordedValues);
 
